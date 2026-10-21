@@ -1,0 +1,89 @@
+{
+  "settings": {
+    "board_width_cm": 30.0,
+    "tile_cm": 0.2,
+    "grout_cm": 0.04,
+    "working_size": 1200,
+    "sam_model": "vit_l",
+    "sam_points_per_side": 32,
+    "min_region_pct": 0.3,
+    "background_min_pct": 3.0,
+    "smooth_image": true,
+    "saturation": 1.15,
+    "contrast": 12.0,
+    "fill_gaps": true,
+    "snug_rounds": 2
+  },
+  "groups": [
+    {
+      "id": 2,
+      "name": "wall",
+      "kind": "background",
+      "members": [
+        3,
+        4,
+        6,
+        8,
+        10,
+        13,
+        18
+      ],
+      "order": 2,
+      "style": "brick",
+      "angle": -28.0,
+      "outline_rows": 1,
+      "inner_detail": 0.0,
+      "colors": 15,
+      "fan_center": [
+        0.5,
+        0.0
+      ]
+    },
+    {
+      "id": 3,
+      "name": "dancers",
+      "kind": "object",
+      "members": [
+        1,
+        5,
+        9,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "order": 1,
+      "style": "echo",
+      "angle": 0.0,
+      "outline_rows": 1,
+      "inner_detail": 1.0,
+      "colors": 15,
+      "fan_center": [
+        0.5,
+        0.0
+      ]
+    },
+    {
+      "id": 4,
+      "name": "floor",
+      "kind": "background",
+      "members": [
+        2,
+        7
+      ],
+      "order": 0,
+      "style": "brick",
+      "angle": 0.0,
+      "outline_rows": 1,
+      "inner_detail": 0.0,
+      "colors": 15,
+      "fan_center": [
+        0.5,
+        0.0
+      ]
+    }
+  ]
+}

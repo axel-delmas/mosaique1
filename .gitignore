@@ -1,0 +1,33 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Images (examples, test pictures, outputs)
+*.png
+*.jpg
+*.jpeg
+!degas.jpg
+
+# Generated data and weights
+*.npy
+*.npz
+*.pt
+
+# Projects (user pictures and generated mosaics)
+mosaic_projects/*
+!mosaic_projects/degas/
+
+# Research-phase output folders
+edge_maps/
+colors/
+lines/
+rows/
+edge_pipeline/
+small_tiles/
+new_degas/
+network/
+pipeline/
